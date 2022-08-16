@@ -30,6 +30,7 @@ import { PortalTableComponent } from './portal-table/portal-table.component';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatInputModule,
