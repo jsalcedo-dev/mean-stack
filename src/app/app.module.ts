@@ -18,6 +18,7 @@ import { PostCreateComponent } from './Posts/post-create/post-create.component';
 import { PostListComponent } from './Posts/post-list/post-list.component';
 import { HeaderComponent } from './header/header.component';
 import { PortalTableComponent } from './portal-table/portal-table.component';
+import { HttpClientModule } from "@angular/common/http";
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { PortalTableComponent } from './portal-table/portal-table.component';
     MatToolbarModule,
     MatExpansionModule,
     FormsModule,
-    MatTableModule
+    MatTableModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
