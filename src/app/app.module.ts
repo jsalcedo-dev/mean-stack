@@ -7,7 +7,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatToolbarModule} from '@angular/material/toolbar';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {MatTableModule} from '@angular/material/table';
 
 
@@ -19,6 +19,7 @@ import { PostListComponent } from './Posts/post-list/post-list.component';
 import { HeaderComponent } from './header/header.component';
 import { PortalTableComponent } from './portal-table/portal-table.component';
 import { HttpClientModule } from "@angular/common/http";
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 
 
 @NgModule({
@@ -32,6 +33,7 @@ import { HttpClientModule } from "@angular/common/http";
   imports: [
     BrowserModule,
     FormsModule,
+    ReactiveFormsModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatInputModule,
@@ -42,6 +44,7 @@ import { HttpClientModule } from "@angular/common/http";
     MatExpansionModule,
     FormsModule,
     MatTableModule,
+    MatProgressSpinnerModule,
     HttpClientModule
   ],
   providers: [],
